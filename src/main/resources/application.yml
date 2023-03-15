@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    group:
+      local: chatbot-common
+      development: chatbot-common
+      production: chatbot-common
+
+---
+spring.config.activate.on-profile: chatbot-common
+chatbot:
+  config:
+    image_link:
+      thumbnail: https://play.google.com/store/apps/details?id=com.schoolinfo.keris&hl=ko
