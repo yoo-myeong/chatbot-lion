@@ -1,8 +1,8 @@
 package com.alimtoyou.chatbot.domain.chatbotSkill.output.itemcard
 
-enum class ButtonLayout(val value: String) {
+enum class ButtonLayout {
     /** 세로 배치 */
-    VERTICAL(value = "vertical"),
+    vertical,
     /** 가로 배치 */
-    HORIZONTAL(value = "horizontal"),
+    horizontal,
 }
