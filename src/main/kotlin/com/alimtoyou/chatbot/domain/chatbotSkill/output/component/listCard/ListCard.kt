@@ -1,6 +1,7 @@
-package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listcard
+package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard
 
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Button
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard.uniqueField.ListItem
 
 /**
  * @see <a href="https://i.kakao.com/docs/skill-response-format#listcard">chatbot docs</a>

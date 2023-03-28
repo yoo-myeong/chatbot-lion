@@ -1,9 +1,10 @@
-package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.commercecard
+package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.commerceCard
 
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.Component
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Button
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Profile
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Thumbnail
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.commerceCard.uniqueField.Currency
 
 /**
  * @see <a href="https://i.kakao.com/docs/skill-response-format#commercecard">chatbot docs</a>

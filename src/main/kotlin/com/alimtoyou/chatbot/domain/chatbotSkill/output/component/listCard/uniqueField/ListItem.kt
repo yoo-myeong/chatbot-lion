@@ -1,4 +1,7 @@
-package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listcard
+package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard.uniqueField
+
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard.uniqueField.Action
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard.uniqueField.Link
 
 data class ListItem(
     val title: String,

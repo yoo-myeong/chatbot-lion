@@ -1,4 +1,4 @@
-package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.simpleimage
+package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.simpleImage
 
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.Component
 
