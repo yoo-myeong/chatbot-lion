@@ -1,6 +1,7 @@
 package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.basiccard
 
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.Component
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.carousel.CarouselItems
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Button
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Thumbnail
 
@@ -12,7 +13,7 @@ data class BasicCard(
     val description: String?,
     val thumbnail: Thumbnail,
     val buttons: List<Button>,
-) : Component {
+) : Component, CarouselItems {
     init {
         if (description != null && description.length > 236) throw Error("BasicCard.description은 236자를 넘길 수 없습니다.")
     }

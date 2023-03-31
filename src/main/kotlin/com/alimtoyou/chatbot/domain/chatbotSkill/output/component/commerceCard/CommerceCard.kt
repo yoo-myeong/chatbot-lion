@@ -1,6 +1,7 @@
 package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.commerceCard
 
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.Component
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.carousel.CarouselItems
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Button
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Profile
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Thumbnail
@@ -19,7 +20,7 @@ data class CommerceCard(
     val thumbnails: List<Thumbnail>,
     val profile: Profile?,
     val buttons: List<Button>,
-): Component {
+): Component, CarouselItems {
     init {
         if (description.length > 40) throw Error("CommerceCard.description은 40자를 넘을 수 없습니다.")
         if (thumbnails.size > 1) throw Error("CommerceCard.description은 40자를 넘을 수 없습니다.")
