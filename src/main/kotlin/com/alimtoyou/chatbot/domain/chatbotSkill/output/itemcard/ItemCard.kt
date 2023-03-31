@@ -1,6 +1,8 @@
 package com.alimtoyou.chatbot.domain.chatbotSkill.output.itemcard
 
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.carousel.CarouselItems
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Button
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.itemcard.uniqueField.*
 
 /**
  * @see <a href="https://i.kakao.com/docs/skill-response-format#itemcard">chatbot docs</a>
@@ -17,7 +19,7 @@ data class ItemCard(
     val description: String?,
     val buttons: List<Button>?,
     val buttonLayout: ButtonLayout?,
-) {
+): CarouselItems {
     init {
         if (head != null && profile != null) throw Error("head와 profile은 동시에 노출될 수 없습니다.")
         if (description != null && title == null) throw Error("description을 넣는 경우, title이 필수 항목입니다.")

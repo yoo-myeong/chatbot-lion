@@ -1,4 +1,4 @@
-package com.alimtoyou.chatbot.domain.chatbotSkill.output.itemcard
+package com.alimtoyou.chatbot.domain.chatbotSkill.output.itemcard.uniqueField
 
 data class ItemList(
     val title: String,
