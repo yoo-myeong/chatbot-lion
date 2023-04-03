@@ -1,7 +1,7 @@
 package com.alimtoyou.chatbot.domain.chatbotSkill
 
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.Component
-import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Button
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.button.Button
 
 /**
  * @see <a href="https://i.kakao.com/docs/skill-response-format#skilltemplate">chatbot docs</a>

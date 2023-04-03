@@ -2,7 +2,7 @@ package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard
 
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.Component
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.carousel.CarouselItems
-import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Button
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.button.Button
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard.uniqueField.ListItem
 
 /**

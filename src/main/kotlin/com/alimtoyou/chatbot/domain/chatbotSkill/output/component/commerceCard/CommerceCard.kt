@@ -2,9 +2,9 @@ package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.commerceCard
 
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.Component
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.carousel.CarouselItems
-import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Button
-import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Profile
-import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Thumbnail
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.button.Button
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.profile.Profile
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.thumbnail.Thumbnail
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.commerceCard.uniqueField.Currency
 
 /**

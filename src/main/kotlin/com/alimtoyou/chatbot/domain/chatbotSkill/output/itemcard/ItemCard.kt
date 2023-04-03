@@ -1,7 +1,7 @@
 package com.alimtoyou.chatbot.domain.chatbotSkill.output.itemcard
 
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.carousel.CarouselItems
-import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Button
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.button.Button
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.itemcard.uniqueField.*
 
 /**

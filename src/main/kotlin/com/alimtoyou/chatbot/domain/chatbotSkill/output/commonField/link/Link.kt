@@ -1,4 +1,4 @@
-package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard.uniqueField
+package com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.link
 
 data class Link(
     val pc: String?,
