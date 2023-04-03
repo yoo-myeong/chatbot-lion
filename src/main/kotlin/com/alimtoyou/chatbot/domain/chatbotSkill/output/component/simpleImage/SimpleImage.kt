@@ -1,6 +1,6 @@
 package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.simpleImage
 
-import com.alimtoyou.chatbot.domain.chatbotSkill.output.Component
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.Component
 
 /**
  * @see <a href="https://i.kakao.com/docs/skill-response-format#simpleimage">chatbot docs</a>

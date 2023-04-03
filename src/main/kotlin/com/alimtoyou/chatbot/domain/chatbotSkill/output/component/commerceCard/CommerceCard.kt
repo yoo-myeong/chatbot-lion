@@ -1,6 +1,6 @@
 package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.commerceCard
 
-import com.alimtoyou.chatbot.domain.chatbotSkill.output.Component
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.Component
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.carousel.CarouselItems
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Button
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Profile
