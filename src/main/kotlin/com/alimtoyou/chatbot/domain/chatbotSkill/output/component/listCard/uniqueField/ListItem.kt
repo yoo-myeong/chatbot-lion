@@ -1,7 +1,6 @@
 package com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard.uniqueField
 
-import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard.uniqueField.Action
-import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.listCard.uniqueField.Link
+import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.Link
 
 data class ListItem(
     val title: String,
@@ -16,13 +15,13 @@ data class ListItem(
     init {
         if (
             action != null &&
-            action.value == Action.BLOCK.value &&
+            action == Action.block &&
             blockId == null
         ) throw Error("block action은 blockId가 필수입니다.")
 
         if (
             action != null &&
-            action.value == Action.MESSAGE.value &&
+            action == Action.message &&
             messageText == null
         ) throw Error("message action은 messageText가 필수입니다.")
     }
