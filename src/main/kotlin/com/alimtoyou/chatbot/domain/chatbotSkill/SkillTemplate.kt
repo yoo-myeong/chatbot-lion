@@ -11,7 +11,15 @@ data class SkillTemplate (
     val quickReplies: List<Button>?,
 ) {
     init {
-        if (outputs.size !in 1..3) throw Error()
-        if (quickReplies != null && quickReplies.size > 10) throw Error()
+        val maxOutputCount = 3
+        val maxQuickReplyCount = 10
+
+        if (outputs.size !in 1..maxOutputCount) {
+            throw IllegalArgumentException("The number of outputs should be between 1 and $maxOutputCount.")
+        }
+        if (quickReplies != null && quickReplies.size > maxQuickReplyCount) {
+            throw IllegalArgumentException("The number of quick replies should be less than or equal to $maxQuickReplyCount.")
+        }
     }
 }
+
