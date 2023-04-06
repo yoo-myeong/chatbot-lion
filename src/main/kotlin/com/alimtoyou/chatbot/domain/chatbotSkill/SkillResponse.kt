@@ -2,7 +2,6 @@ package com.alimtoyou.chatbot.domain.chatbotSkill
 
 import com.alimtoyou.chatbot.domain.chatbotSkill.output.component.ContextControl
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
-import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.annotation.JsonProperty
 
 /**
