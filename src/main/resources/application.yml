@@ -1,9 +1,14 @@
 spring:
   profiles:
     group:
-      local: chatbot-common
-      development: chatbot-common
+      local: chatbot-common, db-local
+      development: chatbot-common, db-local
       production: chatbot-common
+
+---
+spring:
+  jackson:
+    default-property-inclusion: NON_NULL
 
 ---
 spring.config.activate.on-profile: chatbot-common
@@ -11,3 +16,10 @@ chatbot:
   config:
     image_link:
       thumbnail: https://play.google.com/store/apps/details?id=com.schoolinfo.keris&hl=ko
+
+---
+spring.config.activate.on-profile: db-local
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://alimtoyou:${MONGODB_PASSWORD}@alimtoyou.nqonrsi.mongodb.net/alimtoyou_dev
