@@ -17,6 +17,9 @@ class WelcomeController(
     @Autowired
     private val mongoTemplate:MongoTemplate
 ) {
+    /**
+     * TODO: quickReplies는 블록아아디에 따라 조회해서 사용할 수 있도록 기능 추가
+     */
     @GetMapping("/scenario")
     fun test(@RequestParam name: String): Any {
         val query = Query(Criteria.where("name").`is`(name))
