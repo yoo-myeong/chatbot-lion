@@ -23,6 +23,11 @@ class WelcomeController(
     @GetMapping("/scenario")
     fun test(@RequestParam name: String): Any {
         val query = Query(Criteria.where("name").`is`(name))
+
+        /**
+         * name 필드에 단일제약조건이 걸려있어
+         * 시나리오 이름으로 단일 document를 조회
+         */
         val scenarioDoc = mongoTemplate.findOne(query, Map::class.java, "scenario")
             ?: throw IllegalArgumentException("welcome scenario doc is null")
 

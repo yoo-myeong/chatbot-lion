@@ -8,7 +8,7 @@ import com.alimtoyou.chatbot.domain.chatbotSkill.output.commonField.button.Butto
  */
 data class SkillTemplate (
     val outputs: List<Component>,
-    val quickReplies: List<Button>?,
+    val quickReplies: List<Button>? = null,
 ) {
     init {
         val maxOutputCount = 3
